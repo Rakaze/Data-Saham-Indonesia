@@ -178,7 +178,7 @@ if kodeEmiten :
         tickerData1.institutional_holders
     if data_saham == 'Pendapatan':
         dataEarn = pd.DataFrame(tickerData1.earnings.T)
-        dataEarn
+        st.write(dataEarn)
     
 
 st.markdown(hide_menu, unsafe_allow_html=True)
